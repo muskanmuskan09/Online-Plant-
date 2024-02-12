@@ -1,0 +1,505 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #064e2e;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    /* justify-content: center; */
+}
+
+.search_head {
+
+    width: 200px;
+    border-color: orange;
+    /* padding-bottom: 30px; */
+}
+
+.logo {
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Sigmar', cursive;
+    color: white;
+
+}
+
+.pages,
+ul,
+li,
+a {
+    list-style: none;
+    padding-top: 3px;
+    padding-right: 10px;
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+    color: azure;
+    font-size: 50px;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+   
+}
+.ul,
+.li,
+a:hover{
+    /* text-decoration: underline; */
+    text-decoration: none;
+}
+
+.container{
+    background-image: url(12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.box1{
+    height: 150px;
+    width: 800px;
+    /* border: 5px dashed rgb(168, 154, 154); */
+    margin-left: 300px;
+    margin-top: 100px;
+    float: left;
+
+}
+.box1 h1{
+    color: rgb(48, 64, 48);
+    font-size: 70px;
+}
+.box2 button{
+    margin-left: 150px;
+    margin-top: 180px;
+    color: rgb(246, 242, 249);
+    background-color:rgb(48, 64, 48);
+    font-size: large;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+footer {
+    left: 0;
+    right: 0;
+    background: #044f1c;
+    height: auto;
+    width: 99vw;
+    font-family: Open Sans;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: -100px;
+    clear: both;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1rem;
+}
+
+socials a:hover i {
+    color: aqua;
+    transition: color .4s ease;
+}
+
+.footer-bottom {
+    background: #07340b;
+    width: 99vw;
+    /* padding: 0px 0; */
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-decoration-color: #243360;
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 50;
+}
+/* .container {
+    min-height: 100%;
+    padding-top: 100px;
+} */
+html,body{
+    height: 100%;
+}
+.categories{
+    color:rgb(196, 218, 184);
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+    background-color: #064e2e;
+    height: 70vh;
+    width: 200vh;
+    font-size: 30px;
+}
+.con-2{
+    display: flex;
+    flex: row;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    
+}
+.categories h1{
+    font-family: 'Vesper Libre', serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.con1{
+    background-image: url(succulent1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    border: 5px solid white;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+.con2{
+    background-image: url(bonsai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    border: 5px solid white; 
+    margin-left: 170px; 
+    border-radius: 50px;
+}
+.con3{
+    background-image: url(flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    border: 5px solid white;
+    margin-left: 170px;
+    border-radius: 50px;
+}
+.con4{
+    background-image: url(creepers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    border: 5px solid white;
+    margin-left: 170px;
+    border-radius: 50px;
+} 
+.con-3{
+    display: flex;
+    flex: row;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.s1{
+    color: rgb(196, 218, 184);
+    height: 120px;
+    width: 350px;
+    font-family: 'Dosis', sans-serif;
+    /* border: 10px solid rgb(228, 196, 35); */
+    margin-left: 100px;
+    /* border-radius: 50px; */
+}
+.f1{ color: rgb(196, 218, 184);
+    height: 120px;
+    width: 350px;
+    font-family: 'Dosis', sans-serif;
+    /* border: 10px solid rgb(228, 196, 35); */
+    margin-left: 170px;
+    /* border-radius: 50px; */
+}
+.b1{ color:rgb(196, 218, 184);
+    height: 120px;
+    width: 350px;
+    font-family: 'Dosis', sans-serif;
+    /* border: 10px solid rgb(228, 196, 35); */
+    margin-left: 150px;
+    /* border-radius: 50px; */
+}
+.c1{
+    color: rgb(196, 218, 184);
+    height: 180px;
+    width: 350px;
+    font-family: 'Dosis', sans-serif;
+    /* border: 10px solid rgb(228, 196, 35); */
+    margin-left: 200px;
+    /* border-radius: 50px; */
+}
+.products{
+    color:rgb(29, 75, 4);
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+    background-color: #c1c5c3;
+    height: 60vh;
+    width: 200vh;
+    font-size: 30px;
+}
+/* SERVICES */
+.services{
+    font-family: 'Vesper Libre', serif;
+    color:rgb(196, 218, 184);
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+    background-color: #064e2e;
+    height: 79vh;
+    width: 200vh;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.ser1{
+    /* display: flex; 
+    flex-direction: row;  */
+    color: black;
+    text-align: bottom; 
+    display: inline-block;
+    /* margin: 0 auto; */
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 5px solid white;
+    border-radius: 5%;
+    height: 52vh;
+    width: 30vh;
+    background-color:rgb(202, 244, 180);
+    box-shadow: 10px 10px 10px 10px rgb(202, 244, 180) blur;
+
+}
+.ser2{
+    text-align: center; 
+    display: inline-block;
+    margin: 10%;
+    border: none;
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+    background-image: url('n1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ser3{
+    text-align: center; 
+    display: inline-block;
+    margin-top:4%;
+    /* margin: 10%; */
+    border: none;
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+    background-image: url('n2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ser4{
+    text-align: center; 
+    display: inline-block;
+    margin: 10%;
+    border:none;
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+    background-image: url('n3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ser5{
+    text-align: center; 
+    display: inline-block;
+    margin: 10%;
+    border: none;
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+    background-image: url('n4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#service1{
+    /* color: #4e0707; */
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Lilita One', cursive;
+}
+#service2{
+    letter-spacing: 1px;
+    font-family: 'Lilita One', cursive;
+    font-size: 15px;
+}
+#service3{
+    letter-spacing: 1px;
+    font-family: 'Lilita One', cursive;
+    font-size: 15px;
+}
+#service4{
+    letter-spacing: 1px;
+    font-family: 'Lilita One', cursive;
+    font-size: 15px;
+}
+
+#service1 h3{
+    font-size: 25px;
+    font-family: 'Lilita One', cursive;
+}
+#service2 h3{
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+}
+#service3 h3{
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+}
+
+#service4 h3{
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+}
+
+/* ENQUIRE NOW BUTTON  */
+
+.enquire-1{
+    width: 8vh;
+    height: 4vh;
+    font-size: 5px;
+    padding: 10px;
+    font-style: lato;
+    background-color: #044f1c;
+    color: #c1c5c3;
+    border: none;
+    border-radius: 48%;
+}
+/* SIGN UP PAGE */  
+/* SIGN UP PAGE */
+.signback{
+    background-image: url('11.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.signup{
+    margin-top: 10vh;
+    position: absolute;
+    left: 40%;
+    height: 65vh;
+    width: 45vh;
+    opacity: .8;
+    text-align: center;
+    color: #fff;
+    border-radius: 10%;
+    background-color:#064e2e;
+    border: none;
+    padding-top: 3vh;
+    font-size: 20px;
+    box-shadow: 0px 5px 0px 5px green blur;
+}
+input[type=text],[type=email],[type=password]{
+    width: 80%;
+    padding: 10px;
+    font-size: 25px;
+}
+input[type=submit]{
+    width: 40%;
+    padding: 10px;
+    font-size: 25px;
+}
+button[type=button]{
+    width: 40%;
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* LOGIN PAGE       LOGIN PAGE      LOGIN PAGE */
+/* LOGIN PAGE       LOGIN PAGE       LOGIN PAGE */
+.login{
+    margin-top: 10vh;
+    position: absolute;
+    left: 40%;
+    height: 59vh;
+    width: 45vh;
+    opacity: .8;
+    text-align: center;
+    color: #fff;
+    border-radius: 10%;
+    background-color:#064e2e;
+    border: none;
+    padding-top: 3vh;
+    font-size: 30px;
+}
+.login h4{
+    font-size: 20px;
+}
+
+#login-button{
+    color: #064e2e;
+
+}

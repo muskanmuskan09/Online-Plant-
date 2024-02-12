@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    padding:0%;
+}
+.header{
+    background-color:rgba(0,0,0,0.8);
+    /* width: auto; */
+    height: 150px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+     display: flex;
+}
+.logo{
+    color:white;
+    padding-top: 45px;
+    font-size: 20px;
+    padding-left: 30px;
+    justify-content: space-between;
+    font-style: 'Helvetica Neue', sans-serif;
+}
+.store{
+    color:white;
+    padding-top: 30;
+    padding-left: 250;
+    
+}
